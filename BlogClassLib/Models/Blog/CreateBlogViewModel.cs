@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlogClassLib.Models.Blog
+namespace BlogClassLib.Models.Blog;
+
+public class CreateBlogViewModel : BaseResponseModel
 {
-    internal class CreateBlogViewModel
-    {
-    }
+    public string? Title { get; set; }
+    public string? Content { get; set; }
 }

@@ -6,7 +6,8 @@ public class Blog
     public string? Title { get; set; }
     public string? Content { get; set; }
     public int UserId { get; set; }
-    public int Vote { get; set; }
+    public User? User { get; set; }
+    public int VoteCount { get; set; }
     public DateTime? DateCreated { get; set; }
     public DateTime? DateUpdated { get; set; }
 }

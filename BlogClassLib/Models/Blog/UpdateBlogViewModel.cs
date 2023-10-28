@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlogClassLib.Models.Blog
+namespace BlogClassLib.Models.Blog;
+
+public class UpdateBlogViewModel : BaseResponseModel
 {
-    public class UpdateBlogViewModel
-    {
-    }
+    public int Id { get; set; }
+    public string? Title { get; set; }
+    public string? Content { get; set; }
 }

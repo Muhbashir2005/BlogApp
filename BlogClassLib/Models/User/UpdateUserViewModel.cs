@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlogClassLib.Models.User;
 
-public class UpdateUserViewModel
+public class UpdateUserViewModel : BaseResponseModel
 {
     public string? FullName { get; set; }
     public string? UserName { get; set; }

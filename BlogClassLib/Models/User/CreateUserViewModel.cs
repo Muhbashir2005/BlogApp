@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlogClassLib.Models.User;
 
-public class CreateUserViewModel
+public class CreateUserViewModel : BaseResponseModel
 {
     public int Id { get; set; }
     public string? FullName { get; set; }
