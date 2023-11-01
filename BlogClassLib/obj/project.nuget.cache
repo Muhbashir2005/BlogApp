@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bg+C/Z2Yha+5hvfCdZtcFExYB1a1LlWW8RLkzrCZs/F0HDX+BJOu1ysYNJI9t/6dLzia+WO5IeA/yu3hWIED6Q==",
+  "dgSpecHash": "rN6AKNS4U9G5WDbXCtDV1Y4ztNR3pve1i8sQl4k20lCqzizdCiCKU6tw5B/7Pk9kZWD0AjUpKO96Yuex0AyIlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\my\\Documents\\Projects\\BlogApp\\BlogClassLib\\BlogClassLib.csproj",
+  "projectFilePath": "c:\\Users\\my\\Documents\\Projects\\BlogApp\\BlogClassLib\\BlogClassLib.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

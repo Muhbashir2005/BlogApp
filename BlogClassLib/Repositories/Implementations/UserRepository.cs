@@ -1,14 +1,14 @@
-﻿using BlogClassLib.Entities;
-using BlogClassLib.Models;
-using BlogClassLib.Models.User;
-using BlogClassLib.Repositories.Interfaces;
+﻿using Blog.Class.Entities;
+using Blog.Class.Models;
+using Blog.Class.Models.User;
+using Blog.Class.Repositories.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlogClassLib.Repositories.Implementations;
+namespace Blog.Class.Repositories.Implementations;
 
 public class UserRepository : IUserRepository
 {
@@ -30,7 +30,7 @@ public class UserRepository : IUserRepository
 
         users = usersList;
 
-        BaseResponseModel response = new BaseResponseModel()
+        BaseResponseModel response = new()
         {
             Status = true,
             Message = "User Created Successfully"
@@ -90,8 +90,30 @@ public class UserRepository : IUserRepository
         return (response, user);
     }
 
-    public (BaseResponseModel, List<User>) UpdateUser(int id, List<User> users, UpdateUserViewModel model)
+    public (BaseResponseModel, List<User>) UpdateUser(int id, List<User> usersList, UpdateUserViewModel model)
     {
-        
+        BaseResponseModel response = new()
+        {
+            Status = true,
+            Message = "Updated Succesfully"
+        };
+        List<User> users = usersList;
+        User user = new();
+
+
+        foreach (var item in users)
+        {
+            if(item.Id == id)
+            {
+                item.FullName = model.FullName;
+                item.UserName = model.UserName;
+                item.Email = model.Email;
+
+                return (response, users);
+            }
+        }
+        response.Status = false;
+        response.Message = "Failed To Update";
+        return (response, users);
     }
 }

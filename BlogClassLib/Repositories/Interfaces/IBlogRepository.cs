@@ -1,11 +1,11 @@
-﻿using BlogClassLib.Models;
+﻿using Blog.Class.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlogClassLib.Repositories.Interfaces;
+namespace Blog.Class.Repositories.Interfaces;
 
 public interface IBlogRepository
 {

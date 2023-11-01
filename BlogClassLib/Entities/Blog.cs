@@ -1,4 +1,4 @@
-﻿namespace BlogClassLib.Entities;
+﻿namespace Blog.Class.Entities;
 
 public class Blog
 {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlogClassLib.Models;
+namespace Blog.Class.Models;
 
 public class BaseResponseModel
 {

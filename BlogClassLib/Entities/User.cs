@@ -1,4 +1,4 @@
-﻿namespace BlogClassLib.Entities;
+﻿namespace Blog.Class.Entities;
 public class User
 {
     public int Id { get; set; }

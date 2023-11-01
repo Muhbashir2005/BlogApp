@@ -1,0 +1,12 @@
+C:\Users\my\Documents\Projects\BlogApp\BlogClassLib\bin\Debug\net7.0\BlogClassLib.deps.json
+C:\Users\my\Documents\Projects\BlogApp\BlogClassLib\bin\Debug\net7.0\BlogClassLib.dll
+C:\Users\my\Documents\Projects\BlogApp\BlogClassLib\bin\Debug\net7.0\BlogClassLib.pdb
+C:\Users\my\Documents\Projects\BlogApp\BlogClassLib\obj\Debug\net7.0\BlogClassLib.csproj.AssemblyReference.cache
+C:\Users\my\Documents\Projects\BlogApp\BlogClassLib\obj\Debug\net7.0\BlogClassLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\my\Documents\Projects\BlogApp\BlogClassLib\obj\Debug\net7.0\BlogClassLib.AssemblyInfoInputs.cache
+C:\Users\my\Documents\Projects\BlogApp\BlogClassLib\obj\Debug\net7.0\BlogClassLib.AssemblyInfo.cs
+C:\Users\my\Documents\Projects\BlogApp\BlogClassLib\obj\Debug\net7.0\BlogClassLib.csproj.CoreCompileInputs.cache
+C:\Users\my\Documents\Projects\BlogApp\BlogClassLib\obj\Debug\net7.0\BlogClassLib.dll
+C:\Users\my\Documents\Projects\BlogApp\BlogClassLib\obj\Debug\net7.0\refint\BlogClassLib.dll
+C:\Users\my\Documents\Projects\BlogApp\BlogClassLib\obj\Debug\net7.0\BlogClassLib.pdb
+C:\Users\my\Documents\Projects\BlogApp\BlogClassLib\obj\Debug\net7.0\ref\BlogClassLib.dll

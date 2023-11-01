@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlogClassLib.Models.Blog;
+namespace Blog.Class.Models.Blog;
 
 public class UpdateBlogViewModel : BaseResponseModel
 {

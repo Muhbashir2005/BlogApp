@@ -1,0 +1,96 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "BlogClassLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BlogClassLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogClassLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BlogClassLib/1.0.0": {
+      "type": "project",
+      "path": "../BlogClassLib/BlogClassLib.csproj",
+      "msbuildProject": "../BlogClassLib/BlogClassLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "BlogClassLib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\my\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "c:\\Users\\my\\Documents\\Projects\\BlogApp\\BlogApp\\BlogApp.csproj",
+      "projectName": "BlogApp",
+      "projectPath": "c:\\Users\\my\\Documents\\Projects\\BlogApp\\BlogApp\\BlogApp.csproj",
+      "packagesPath": "C:\\Users\\my\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\my\\Documents\\Projects\\BlogApp\\BlogApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\my\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "c:\\Users\\my\\Documents\\Projects\\BlogApp\\BlogClassLib\\BlogClassLib.csproj": {
+              "projectPath": "c:\\Users\\my\\Documents\\Projects\\BlogApp\\BlogClassLib\\BlogClassLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
